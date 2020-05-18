@@ -58,9 +58,6 @@ From qtcreator as developer
 USER jenkins
 ENV HOME /home/jenkins
 
-#RUN echo "root:root" | chpasswd
-#CMD ["/yocto/qt-unified-linux-x64-3.2.2-online.run"]
-
 From developer as installer
 
 ENV PATH="/qtcreator/Tools/QtCreator/bin:${PATH}"
